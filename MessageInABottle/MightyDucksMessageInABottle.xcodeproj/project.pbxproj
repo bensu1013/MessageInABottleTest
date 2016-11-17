@@ -15,10 +15,13 @@
 		1B730FE61DD3B2C5005DC779 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B730FE51DD3B2C5005DC779 /* Messages.swift */; };
 		1B730FE81DD3B2FC005DC779 /* Ocean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B730FE71DD3B2FC005DC779 /* Ocean.swift */; };
 		1B730FEA1DD3B313005DC779 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B730FE91DD3B313005DC779 /* User.swift */; };
-		1B730FEC1DD3B5FC005DC779 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B730FEB1DD3B5FC005DC779 /* GoogleService-Info (1).plist */; };
+		26CFA81F1A5EE966172A5C72 /* Pods_MightyDucksMessageInABottle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283FE8A020041D2DCEB63A78 /* Pods_MightyDucksMessageInABottle.framework */; };
+		B5F1DD681DDE2A5000BE1729 /* FirebaseMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F1DD671DDE2A5000BE1729 /* FirebaseMethods.swift */; };
+		B5F1DD6A1DDE2AA000BE1729 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5F1DD691DDE2AA000BE1729 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0809731AC850FEF448E1AC36 /* Pods-MightyDucksMessageInABottle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MightyDucksMessageInABottle.release.xcconfig"; path = "Pods/Target Support Files/Pods-MightyDucksMessageInABottle/Pods-MightyDucksMessageInABottle.release.xcconfig"; sourceTree = "<group>"; };
 		1B730FD01DD3B292005DC779 /* MightyDucksMessageInABottle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MightyDucksMessageInABottle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B730FD31DD3B292005DC779 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B730FD51DD3B292005DC779 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,7 +32,10 @@
 		1B730FE51DD3B2C5005DC779 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 		1B730FE71DD3B2FC005DC779 /* Ocean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ocean.swift; sourceTree = "<group>"; };
 		1B730FE91DD3B313005DC779 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		1B730FEB1DD3B5FC005DC779 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		283FE8A020041D2DCEB63A78 /* Pods_MightyDucksMessageInABottle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MightyDucksMessageInABottle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFA280BA74329805F67BCCF /* Pods-MightyDucksMessageInABottle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MightyDucksMessageInABottle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MightyDucksMessageInABottle/Pods-MightyDucksMessageInABottle.debug.xcconfig"; sourceTree = "<group>"; };
+		B5F1DD671DDE2A5000BE1729 /* FirebaseMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseMethods.swift; sourceTree = "<group>"; };
+		B5F1DD691DDE2AA000BE1729 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26CFA81F1A5EE966172A5C72 /* Pods_MightyDucksMessageInABottle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +55,8 @@
 			children = (
 				1B730FD21DD3B292005DC779 /* MightyDucksMessageInABottle */,
 				1B730FD11DD3B292005DC779 /* Products */,
+				A4E525A414C1E32951E2A72E /* Pods */,
+				7083A32A7E7E2FEEC58158B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,14 +75,32 @@
 				1B730FD51DD3B292005DC779 /* ViewController.swift */,
 				1B730FE51DD3B2C5005DC779 /* Messages.swift */,
 				1B730FE71DD3B2FC005DC779 /* Ocean.swift */,
+				B5F1DD671DDE2A5000BE1729 /* FirebaseMethods.swift */,
 				1B730FE91DD3B313005DC779 /* User.swift */,
-				1B730FEB1DD3B5FC005DC779 /* GoogleService-Info (1).plist */,
+				B5F1DD691DDE2AA000BE1729 /* GoogleService-Info.plist */,
 				1B730FD71DD3B292005DC779 /* Main.storyboard */,
 				1B730FDA1DD3B292005DC779 /* Assets.xcassets */,
 				1B730FDC1DD3B292005DC779 /* LaunchScreen.storyboard */,
 				1B730FDF1DD3B292005DC779 /* Info.plist */,
 			);
 			path = MightyDucksMessageInABottle;
+			sourceTree = "<group>";
+		};
+		7083A32A7E7E2FEEC58158B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				283FE8A020041D2DCEB63A78 /* Pods_MightyDucksMessageInABottle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4E525A414C1E32951E2A72E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CFA280BA74329805F67BCCF /* Pods-MightyDucksMessageInABottle.debug.xcconfig */,
+				0809731AC850FEF448E1AC36 /* Pods-MightyDucksMessageInABottle.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B730FE21DD3B292005DC779 /* Build configuration list for PBXNativeTarget "MightyDucksMessageInABottle" */;
 			buildPhases = (
+				73E3DB14DF199ECD3A779DD5 /* [CP] Check Pods Manifest.lock */,
 				1B730FCC1DD3B291005DC779 /* Sources */,
 				1B730FCD1DD3B291005DC779 /* Frameworks */,
 				1B730FCE1DD3B291005DC779 /* Resources */,
+				BFD9DAEA0665BD6725567066 /* [CP] Embed Pods Frameworks */,
+				7A43C4849B8A12BC492649BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -108,7 +138,7 @@
 				TargetAttributes = {
 					1B730FCF1DD3B291005DC779 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = X7LNFK5598;
+						DevelopmentTeam = 2UY7XP5ASH;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,11 +169,59 @@
 				1B730FDE1DD3B292005DC779 /* LaunchScreen.storyboard in Resources */,
 				1B730FDB1DD3B292005DC779 /* Assets.xcassets in Resources */,
 				1B730FD91DD3B292005DC779 /* Main.storyboard in Resources */,
-				1B730FEC1DD3B5FC005DC779 /* GoogleService-Info (1).plist in Resources */,
+				B5F1DD6A1DDE2AA000BE1729 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73E3DB14DF199ECD3A779DD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A43C4849B8A12BC492649BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MightyDucksMessageInABottle/Pods-MightyDucksMessageInABottle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFD9DAEA0665BD6725567066 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MightyDucksMessageInABottle/Pods-MightyDucksMessageInABottle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1B730FCC1DD3B291005DC779 /* Sources */ = {
@@ -151,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B730FE81DD3B2FC005DC779 /* Ocean.swift in Sources */,
+				B5F1DD681DDE2A5000BE1729 /* FirebaseMethods.swift in Sources */,
 				1B730FD61DD3B292005DC779 /* ViewController.swift in Sources */,
 				1B730FE61DD3B2C5005DC779 /* Messages.swift in Sources */,
 				1B730FEA1DD3B313005DC779 /* User.swift in Sources */,
@@ -275,9 +354,10 @@
 		};
 		1B730FE31DD3B292005DC779 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFA280BA74329805F67BCCF /* Pods-MightyDucksMessageInABottle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = X7LNFK5598;
+				DEVELOPMENT_TEAM = 2UY7XP5ASH;
 				INFOPLIST_FILE = MightyDucksMessageInABottle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fatiron.MightyDucksMessageInABottle;
@@ -288,9 +368,10 @@
 		};
 		1B730FE41DD3B292005DC779 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0809731AC850FEF448E1AC36 /* Pods-MightyDucksMessageInABottle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = X7LNFK5598;
+				DEVELOPMENT_TEAM = 2UY7XP5ASH;
 				INFOPLIST_FILE = MightyDucksMessageInABottle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fatiron.MightyDucksMessageInABottle;
@@ -318,6 +399,7 @@
 				1B730FE41DD3B292005DC779 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_MightyDucksMessageInABottle {
+  umbrella header "Pods-MightyDucksMessageInABottle-umbrella.h"
+
+  export *
+  module * { export * }
+}
