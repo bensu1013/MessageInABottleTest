@@ -7,10 +7,66 @@
 //
 
 import Foundation
+import Firebase
 
 
 class FirebaseMethods {
 
+    let ref = FIRDatabase.database().reference().root
+    
+    
+    //MARK: - Sign Up & Log In Funcs
+    
+    func signInButton(email: String, password: String) {
+        
+        FIRAuth.auth()?.signIn(withEmail: email, password: password) { (user, error) in
+            if let error = error {
+                print(error.localizedDescription)
+                
+            }
+            guard let user = FIRAuth.auth()?.currentUser else { print("error"); return }
+        }
+    }
+    
+    
+    func signUpButton(email: String, password: String, name: String) {
+        
+        if email != "" && password != "" {
+            FIRAuth.auth()?.createUser(withEmail: email, password: password, completion: { (user, error) in
+                if error == nil {
+                    let userDictionary = [(user?.uid)! : ["email": email, "name": name, "uniqueKey": (user?.uid)!]]
+                    
+                    UserDataStore.init(name: name, uniqueKey: (user?.uid)!)
+                    self.ref.child("users").child((user?.uid)!).setValue(userDictionary)
+                    
+                    
+                    
+                }
+  
+                
+                } else {
+                    if error != nil {
+                        print(error!)
+                    }
+                }
+            })
+        }
+    }
+    
+    
+    // MARK: - Create new bottle
+    
+    
+    func createNewBottle(name: String) {
+        
+        
+        
+        
+        
+    }
+    
+    
+    
 /*
  Sending data TO Firebase:
  
@@ -44,3 +100,6 @@ class FirebaseMethods {
  
  
  }
+
+
+

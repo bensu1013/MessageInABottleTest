@@ -1,17 +1,21 @@
 //
-//  User.swift
+//  UserDataStore.swift
 //  MightyDucksMessageInABottle
 //
-//  Created by Christopher Boynton on 11/9/16.
+//  Created by Felicity Johnson on 11/18/16.
 //  Copyright © 2016 Flatiron School. All rights reserved.
 //
 
 import Foundation
 
-class User {
+class UserDataStore {
     
     var name: String
     var uniqueKey: String
+    var email: String?
+    static let sharedInstance = UserDataStore()
+    
+    private init() {}
     
     
     init(name: String, uniqueKey: String) {
@@ -19,7 +23,7 @@ class User {
         self.uniqueKey = uniqueKey
         
     }
-
     
-     
+    
+    // func create user dictionary (first & last name, email, password)
 }
