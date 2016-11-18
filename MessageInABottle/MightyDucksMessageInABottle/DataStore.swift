@@ -8,21 +8,15 @@
 
 import Foundation
 
-class UserDataStore {
+class DataStore {
     
-    var name: String
-    var uniqueKey: String
-    var email: String?
-    static let sharedInstance = UserDataStore()
+    var oceansArray = [Ocean]()
+    
+    static let sharedInstance = DataStore()
+    
     
     private init() {}
-    
-    
-    init(name: String, uniqueKey: String) {
-        self.name = name
-        self.uniqueKey = uniqueKey
-        
-    }
+
     
     
     // func create user dictionary (first & last name, email, password)
